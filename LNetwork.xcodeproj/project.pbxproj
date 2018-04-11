@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78CAD87E207DBFBC00D000E9 /* Api.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CAD87D207DBFBC00D000E9 /* Api.m */; };
+		78CAD882207DBFFA00D000E9 /* HttpRequestWithCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CAD881207DBFFA00D000E9 /* HttpRequestWithCache.m */; };
+		78CAD886207DC0BA00D000E9 /* MyAFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CAD885207DC0BA00D000E9 /* MyAFHTTPSessionManager.m */; };
+		78CAD88C207DD94E00D000E9 /* NSArray+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CAD88B207DD94E00D000E9 /* NSArray+NullSafe.m */; };
+		78CAD88F207DD9AA00D000E9 /* NSDictionary+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CAD88E207DD9AA00D000E9 /* NSDictionary+NullSafe.m */; };
 		78D7C522207B38FE00567C70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D7C521207B38FE00567C70 /* AppDelegate.m */; };
 		78D7C525207B38FF00567C70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D7C524207B38FF00567C70 /* ViewController.m */; };
 		78D7C528207B38FF00567C70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D7C526207B38FF00567C70 /* Main.storyboard */; };
 		78D7C52A207B390000567C70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D7C529207B390000567C70 /* Assets.xcassets */; };
 		78D7C52D207B390000567C70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D7C52B207B390000567C70 /* LaunchScreen.storyboard */; };
 		78D7C530207B390000567C70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D7C52F207B390000567C70 /* main.m */; };
+		FEE7973F9E903E150D619964 /* libPods-LNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1826C2A389691ED1F2571CC /* libPods-LNetwork.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72DE216D15C6899C0998D274 /* Pods-LNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-LNetwork/Pods-LNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		78CAD87C207DBFBC00D000E9 /* Api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Api.h; sourceTree = "<group>"; };
+		78CAD87D207DBFBC00D000E9 /* Api.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Api.m; sourceTree = "<group>"; };
+		78CAD880207DBFFA00D000E9 /* HttpRequestWithCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpRequestWithCache.h; sourceTree = "<group>"; };
+		78CAD881207DBFFA00D000E9 /* HttpRequestWithCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpRequestWithCache.m; sourceTree = "<group>"; };
+		78CAD884207DC0BA00D000E9 /* MyAFHTTPSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAFHTTPSessionManager.h; sourceTree = "<group>"; };
+		78CAD885207DC0BA00D000E9 /* MyAFHTTPSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAFHTTPSessionManager.m; sourceTree = "<group>"; };
+		78CAD88A207DD94E00D000E9 /* NSArray+NullSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+NullSafe.h"; sourceTree = "<group>"; };
+		78CAD88B207DD94E00D000E9 /* NSArray+NullSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NullSafe.m"; sourceTree = "<group>"; };
+		78CAD88D207DD9AA00D000E9 /* NSDictionary+NullSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NullSafe.h"; sourceTree = "<group>"; };
+		78CAD88E207DD9AA00D000E9 /* NSDictionary+NullSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NullSafe.m"; sourceTree = "<group>"; };
 		78D7C51D207B38FE00567C70 /* LNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D7C520207B38FE00567C70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78D7C521207B38FE00567C70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +43,8 @@
 		78D7C52C207B390000567C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78D7C52E207B390000567C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78D7C52F207B390000567C70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1826C2A389691ED1F2571CC /* libPods-LNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D1AF1A3E674C2500B504A7 /* Pods-LNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LNetwork/Pods-LNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +52,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEE7973F9E903E150D619964 /* libPods-LNetwork.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34F6C926ACF84610CC8DA520 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1826C2A389691ED1F2571CC /* libPods-LNetwork.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78CAD87F207DBFC500D000E9 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				78CAD87C207DBFBC00D000E9 /* Api.h */,
+				78CAD87D207DBFBC00D000E9 /* Api.m */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		78CAD883207DC08F00D000E9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				78CAD880207DBFFA00D000E9 /* HttpRequestWithCache.h */,
+				78CAD881207DBFFA00D000E9 /* HttpRequestWithCache.m */,
+				78CAD884207DC0BA00D000E9 /* MyAFHTTPSessionManager.h */,
+				78CAD885207DC0BA00D000E9 /* MyAFHTTPSessionManager.m */,
+				78CAD890207DD9EC00D000E9 /* NullSafe */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		78CAD890207DD9EC00D000E9 /* NullSafe */ = {
+			isa = PBXGroup;
+			children = (
+				78CAD88A207DD94E00D000E9 /* NSArray+NullSafe.h */,
+				78CAD88B207DD94E00D000E9 /* NSArray+NullSafe.m */,
+				78CAD88D207DD9AA00D000E9 /* NSDictionary+NullSafe.h */,
+				78CAD88E207DD9AA00D000E9 /* NSDictionary+NullSafe.m */,
+			);
+			path = NullSafe;
+			sourceTree = "<group>";
+		};
 		78D7C514207B38FE00567C70 = {
 			isa = PBXGroup;
 			children = (
 				78D7C51F207B38FE00567C70 /* LNetwork */,
 				78D7C51E207B38FE00567C70 /* Products */,
+				BDC985B3D88EE425D407B841 /* Pods */,
+				34F6C926ACF84610CC8DA520 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +124,8 @@
 				78D7C521207B38FE00567C70 /* AppDelegate.m */,
 				78D7C523207B38FE00567C70 /* ViewController.h */,
 				78D7C524207B38FF00567C70 /* ViewController.m */,
+				78CAD883207DC08F00D000E9 /* Network */,
+				78CAD87F207DBFC500D000E9 /* Api */,
 				78D7C526207B38FF00567C70 /* Main.storyboard */,
 				78D7C529207B390000567C70 /* Assets.xcassets */,
 				78D7C52B207B390000567C70 /* LaunchScreen.storyboard */,
@@ -71,6 +135,15 @@
 			path = LNetwork;
 			sourceTree = "<group>";
 		};
+		BDC985B3D88EE425D407B841 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4D1AF1A3E674C2500B504A7 /* Pods-LNetwork.debug.xcconfig */,
+				72DE216D15C6899C0998D274 /* Pods-LNetwork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +151,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78D7C533207B390000567C70 /* Build configuration list for PBXNativeTarget "LNetwork" */;
 			buildPhases = (
+				159617249DB79BED024E12CF /* [CP] Check Pods Manifest.lock */,
 				78D7C519207B38FE00567C70 /* Sources */,
 				78D7C51A207B38FE00567C70 /* Frameworks */,
 				78D7C51B207B38FE00567C70 /* Resources */,
@@ -136,13 +210,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		159617249DB79BED024E12CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LNetwork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		78D7C519207B38FE00567C70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				78D7C525207B38FF00567C70 /* ViewController.m in Sources */,
+				78CAD88C207DD94E00D000E9 /* NSArray+NullSafe.m in Sources */,
 				78D7C530207B390000567C70 /* main.m in Sources */,
+				78CAD882207DBFFA00D000E9 /* HttpRequestWithCache.m in Sources */,
+				78CAD886207DC0BA00D000E9 /* MyAFHTTPSessionManager.m in Sources */,
+				78CAD87E207DBFBC00D000E9 /* Api.m in Sources */,
+				78CAD88F207DD9AA00D000E9 /* NSDictionary+NullSafe.m in Sources */,
 				78D7C522207B38FE00567C70 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +381,7 @@
 		};
 		78D7C534207B390000567C70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4D1AF1A3E674C2500B504A7 /* Pods-LNetwork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +398,7 @@
 		};
 		78D7C535207B390000567C70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72DE216D15C6899C0998D274 /* Pods-LNetwork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
