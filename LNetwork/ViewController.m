@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Api.h"
+#import "TabPageController.h"
 
 @interface ViewController ()
 
@@ -35,6 +36,9 @@
     
     Api * api2 =[[Api alloc] init:self tag:@"getList"];
     [api2 getList:@"1111111"];
+    
+    TabPageController *apv =[ [TabPageController alloc]init];
+    [self presentViewController:apv animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {

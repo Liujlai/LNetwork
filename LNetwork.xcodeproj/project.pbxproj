@@ -12,6 +12,7 @@
 		78CAD886207DC0BA00D000E9 /* MyAFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CAD885207DC0BA00D000E9 /* MyAFHTTPSessionManager.m */; };
 		78CAD88C207DD94E00D000E9 /* NSArray+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CAD88B207DD94E00D000E9 /* NSArray+NullSafe.m */; };
 		78CAD88F207DD9AA00D000E9 /* NSDictionary+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CAD88E207DD9AA00D000E9 /* NSDictionary+NullSafe.m */; };
+		78CAD893207DFA7300D000E9 /* TabPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CAD892207DFA7300D000E9 /* TabPageController.m */; };
 		78D7C522207B38FE00567C70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D7C521207B38FE00567C70 /* AppDelegate.m */; };
 		78D7C525207B38FF00567C70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D7C524207B38FF00567C70 /* ViewController.m */; };
 		78D7C528207B38FF00567C70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D7C526207B38FF00567C70 /* Main.storyboard */; };
@@ -33,6 +34,8 @@
 		78CAD88B207DD94E00D000E9 /* NSArray+NullSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NullSafe.m"; sourceTree = "<group>"; };
 		78CAD88D207DD9AA00D000E9 /* NSDictionary+NullSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NullSafe.h"; sourceTree = "<group>"; };
 		78CAD88E207DD9AA00D000E9 /* NSDictionary+NullSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NullSafe.m"; sourceTree = "<group>"; };
+		78CAD891207DFA7300D000E9 /* TabPageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabPageController.h; sourceTree = "<group>"; };
+		78CAD892207DFA7300D000E9 /* TabPageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabPageController.m; sourceTree = "<group>"; };
 		78D7C51D207B38FE00567C70 /* LNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D7C520207B38FE00567C70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78D7C521207B38FE00567C70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -124,6 +127,8 @@
 				78D7C521207B38FE00567C70 /* AppDelegate.m */,
 				78D7C523207B38FE00567C70 /* ViewController.h */,
 				78D7C524207B38FF00567C70 /* ViewController.m */,
+				78CAD891207DFA7300D000E9 /* TabPageController.h */,
+				78CAD892207DFA7300D000E9 /* TabPageController.m */,
 				78CAD883207DC08F00D000E9 /* Network */,
 				78CAD87F207DBFC500D000E9 /* Api */,
 				78D7C526207B38FF00567C70 /* Main.storyboard */,
@@ -242,6 +247,7 @@
 				78CAD882207DBFFA00D000E9 /* HttpRequestWithCache.m in Sources */,
 				78CAD886207DC0BA00D000E9 /* MyAFHTTPSessionManager.m in Sources */,
 				78CAD87E207DBFBC00D000E9 /* Api.m in Sources */,
+				78CAD893207DFA7300D000E9 /* TabPageController.m in Sources */,
 				78CAD88F207DD9AA00D000E9 /* NSDictionary+NullSafe.m in Sources */,
 				78D7C522207B38FE00567C70 /* AppDelegate.m in Sources */,
 			);

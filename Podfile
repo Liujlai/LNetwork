@@ -6,6 +6,8 @@ target 'LNetwork' do
   # use_frameworks!
   pod 'AFNetworking', '~> 3.0'
   pod 'YYCache'
+
+  pod 'SDCycleScrollView'
   # Pods for LNetwork
 
 end
