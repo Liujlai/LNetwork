@@ -8,6 +8,7 @@ target 'LNetwork' do
   pod 'YYCache'
 
   pod 'SDCycleScrollView'
+  pod 'HXWeiboPhotoPicker', '~> 2.1.5'
   # Pods for LNetwork
 
 end

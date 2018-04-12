@@ -9,6 +9,9 @@
 #import "TabPageController.h"
 #import "SDCycleScrollView.h"
 
+#import "IconViewController.h"
+#import "MineViewController.h"
+#pragma mark - 轮播图
 @interface TabPageController ()<SDCycleScrollViewDelegate>
 
 @end
@@ -61,13 +64,14 @@
 }
 
 
-
 #pragma mark - SDCycleScrollViewDelegate
 
 - (void)cycleScrollView:(SDCycleScrollView *)cycleScrollView didSelectItemAtIndex:(NSInteger)index
 {
     NSLog(@"---点击了第%ld张图片", (long)index);
-   
+//    MineViewController *apv =[ [MineViewController alloc]init];
+    IconViewController *apv =[ [IconViewController alloc]init];
+    [self presentViewController:apv animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {
