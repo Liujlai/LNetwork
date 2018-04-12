@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
+#import "LaunchIntroductionView.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +17,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+    ViewController *main = [[ViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:main];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+    // Override point for customization after application launch.
+    #if 1
+    [LaunchIntroductionView sharedWithImages:@[@"yidaoye",@"yidaoye",@"yidaoye",@"yidaoye"] buttonImage:@"btn_lijitiyan" buttonFrame:CGRectMake(kScreen_width/2 - 551/4, kScreen_height - 150, 551/2, 45)];
+    #endif
     return YES;
 }
 
