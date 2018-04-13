@@ -8,7 +8,9 @@
 
 #import "ViewController.h"
 #import "Api.h"
-#import "TabPageController.h"
+//#import "TabPageController.h"
+#import "AnimatorViewController.h"
+
 #pragma mark - 请求事例
 @interface ViewController ()
 
@@ -25,6 +27,8 @@
     lab.textColor= [UIColor cyanColor];
     [self.view addSubview:lab];
     
+    
+
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -37,7 +41,8 @@
     Api * api2 =[[Api alloc] init:self tag:@"getList"];
     [api2 getList:@"1111111"];
     
-    TabPageController *apv =[ [TabPageController alloc]init];
+//    TabPageController *apv =[ [TabPageController alloc]init];
+    AnimatorViewController *apv =[ [AnimatorViewController alloc]init];
     [self presentViewController:apv animated:YES completion:nil];
 }
 

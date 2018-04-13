@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		785E47AC207F468700B3E92F /* IconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 785E47AB207F468700B3E92F /* IconViewController.m */; };
 		785E47B2207F59E600B3E92F /* LaunchIntroductionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 785E47B1207F59E600B3E92F /* LaunchIntroductionView.m */; };
+		78901C842080837300FEA4F5 /* AnimatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78901C832080837300FEA4F5 /* AnimatorViewController.m */; };
 		78CAD87E207DBFBC00D000E9 /* Api.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CAD87D207DBFBC00D000E9 /* Api.m */; };
 		78CAD882207DBFFA00D000E9 /* HttpRequestWithCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CAD881207DBFFA00D000E9 /* HttpRequestWithCache.m */; };
 		78CAD886207DC0BA00D000E9 /* MyAFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CAD885207DC0BA00D000E9 /* MyAFHTTPSessionManager.m */; };
@@ -31,6 +32,8 @@
 		785E47AB207F468700B3E92F /* IconViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconViewController.m; sourceTree = "<group>"; };
 		785E47B0207F59E600B3E92F /* LaunchIntroductionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaunchIntroductionView.h; sourceTree = "<group>"; };
 		785E47B1207F59E600B3E92F /* LaunchIntroductionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchIntroductionView.m; sourceTree = "<group>"; };
+		78901C822080837300FEA4F5 /* AnimatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimatorViewController.h; sourceTree = "<group>"; };
+		78901C832080837300FEA4F5 /* AnimatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatorViewController.m; sourceTree = "<group>"; };
 		78CAD87C207DBFBC00D000E9 /* Api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Api.h; sourceTree = "<group>"; };
 		78CAD87D207DBFBC00D000E9 /* Api.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Api.m; sourceTree = "<group>"; };
 		78CAD880207DBFFA00D000E9 /* HttpRequestWithCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpRequestWithCache.h; sourceTree = "<group>"; };
@@ -86,6 +89,36 @@
 				785E47B1207F59E600B3E92F /* LaunchIntroductionView.m */,
 			);
 			path = LaunchIntroduction;
+			sourceTree = "<group>";
+		};
+		78901C7E2080825000FEA4F5 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				78CAD894207E105D00D000E9 /* MineViewController.h */,
+				78CAD895207E105D00D000E9 /* MineViewController.m */,
+				785E47AA207F468700B3E92F /* IconViewController.h */,
+				785E47AB207F468700B3E92F /* IconViewController.m */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		78901C7F208082D800FEA4F5 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				78CAD892207DFA7300D000E9 /* TabPageController.m */,
+				78CAD891207DFA7300D000E9 /* TabPageController.h */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		78901C812080831A00FEA4F5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				78CAD87F207DBFC500D000E9 /* Api */,
+				78CAD883207DC08F00D000E9 /* Network */,
+				785E47B3207F5F7F00B3E92F /* LaunchIntroduction */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 		78CAD87F207DBFC500D000E9 /* Api */ = {
@@ -145,18 +178,14 @@
 				78D7C521207B38FE00567C70 /* AppDelegate.m */,
 				78D7C523207B38FE00567C70 /* ViewController.h */,
 				78D7C524207B38FF00567C70 /* ViewController.m */,
-				78CAD891207DFA7300D000E9 /* TabPageController.h */,
-				78CAD892207DFA7300D000E9 /* TabPageController.m */,
-				78CAD894207E105D00D000E9 /* MineViewController.h */,
-				78CAD895207E105D00D000E9 /* MineViewController.m */,
-				785E47AA207F468700B3E92F /* IconViewController.h */,
-				785E47AB207F468700B3E92F /* IconViewController.m */,
-				785E47B3207F5F7F00B3E92F /* LaunchIntroduction */,
-				78CAD883207DC08F00D000E9 /* Network */,
-				78CAD87F207DBFC500D000E9 /* Api */,
+				78901C822080837300FEA4F5 /* AnimatorViewController.h */,
+				78901C832080837300FEA4F5 /* AnimatorViewController.m */,
+				78901C7F208082D800FEA4F5 /* Banner */,
+				78901C7E2080825000FEA4F5 /* Photo */,
 				78D7C526207B38FF00567C70 /* Main.storyboard */,
 				78D7C529207B390000567C70 /* Assets.xcassets */,
 				78D7C52B207B390000567C70 /* LaunchScreen.storyboard */,
+				78901C812080831A00FEA4F5 /* Other */,
 				78D7C52E207B390000567C70 /* Info.plist */,
 				78D7C52F207B390000567C70 /* main.m */,
 			);
@@ -283,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78901C842080837300FEA4F5 /* AnimatorViewController.m in Sources */,
 				78D7C525207B38FF00567C70 /* ViewController.m in Sources */,
 				785E47AC207F468700B3E92F /* IconViewController.m in Sources */,
 				78CAD88C207DD94E00D000E9 /* NSArray+NullSafe.m in Sources */,

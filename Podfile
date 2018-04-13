@@ -9,6 +9,10 @@ target 'LNetwork' do
 
   pod 'SDCycleScrollView'
   pod 'HXWeiboPhotoPicker', '~> 2.1.5'
+  pod 'SGPagingView', '~> 1.3.6'
+  
+  pod 'JHChainableAnimations', '~> 3.0.1'
+  pod 'NerdyUI'
   # Pods for LNetwork
 
 end
